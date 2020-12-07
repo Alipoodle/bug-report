@@ -82,7 +82,7 @@ function updateSyntax() {
             if (steps == "") {
                 steps = step;
             } else {
-                steps = steps + ' ~ ' + step;
+                steps = steps + ' - ' + step;
             }
         }
 
@@ -125,7 +125,7 @@ function updateEditSyntax() {
                 if (edit_val == "") { // Fixes issue with first step not using a ~
                     edit_val = step;
                 } else {
-                    edit_val = edit_val + ' ~ ' + step;
+                    edit_val = edit_val + ' - ' + step;
                 }
             }
         }
